@@ -26,7 +26,9 @@ jobs:
         args: -c "sh ./rebuild.sh"
     
     - name: Copy to index.html
-      run: cp presentation.html index.html
+      run: |
+        mkdir build
+        cp presentation.html build/index.html
     
     - name: Setup Pages
       uses: actions/configure-pages@v4
@@ -34,7 +36,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: 'index.html'
+        path: 'build'
     
     - name: Deploy to GitHub Pages
       id: deployment
