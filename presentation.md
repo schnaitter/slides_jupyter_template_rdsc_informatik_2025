@@ -68,6 +68,10 @@ environments.
 - ease of modification
 - multiple Jupyter kernels
 
+Support for the didactical requirements:
+
+- a
+
 :::
 
 ## Context QUADRIGA
