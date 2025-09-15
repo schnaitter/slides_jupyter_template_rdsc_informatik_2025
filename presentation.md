@@ -101,7 +101,8 @@ have different requirements based on the specific audience they want to address
 and the competencies they focus on.
 
 Overall the books should be recognizably created by QUADRIGA to make the use of
-multiple OER easier. Still they should allow for the author’s individualizations.
+multiple OER easier. Still they should allow for the author’s
+individualizations.
 
 The case studies are each (a part of) a research process that demonstrate the
 tools and methods used in similar kinds of research. This allows for example /
@@ -130,7 +131,8 @@ Support for the core components identified by [@samoilova2024]:
 ::: notes
 
 The main audience of the OER are researchers new to data science concepts in
-the addressed disciplines (digital humanities with focus on text, public administration, and film studies). We specifically address doctoral students,
+the addressed disciplines (digital humanities with focus on text, public
+administration, and film studies). We specifically address doctoral students,
 post-docs and profs.
 
 Other audiences like teachers and OER authors are partially addressed because
@@ -253,9 +255,9 @@ be used to author the case studies.
 
 ::: notes
 
-The development should also happen in the open (as open as possible). This means
-the file formats should not necessitate proprietary software or have specific
-requirements for its execution environment.
+The development should also happen in the open (as open as possible). This
+means the file formats should not necessitate proprietary software or have
+specific requirements for its execution environment.
 
 Using and editing the case studies as well as following the development should
 require as few resources of the the user as possible.
@@ -295,8 +297,8 @@ requirements.
 
 ::: notes
 
-Jupyter Book is a static site generator that has a great integration
-with the Jupyter ecosystem.
+Jupyter Book is a static site generator that has a great integration with the
+Jupyter ecosystem.
 
 It allows for the use of Jupyter Notebooks and Markdown files to define pages
 and to structure them into a website with a table of contents and links between
@@ -306,9 +308,10 @@ The Markdown dialect MyST allows for executable Markdown files which makes them
 (more or less) equivalent to `.ipynb` files.
 
 The main advantage is that there is a very clear connection between the website
-and the underlying `.md` and `.ipynb` files. This connection is not only visible
-in the repository and the table of contents definition (`_toc.yml`) but also
-on the individual webpages via links to the code and to execution environments.
+and the underlying `.md` and `.ipynb` files. This connection is not only
+visible in the repository and the table of contents definition (`_toc.yml`) but
+also on the individual webpages via links to the code and to execution
+environments.
 
 :::
 
@@ -385,20 +388,24 @@ on the individual webpages via links to the code and to execution environments.
 :::
 
 ::: notes
-Locally editing means that one edits a content file and then rebuilds the book. While
-only editing one page the author can use `jb build .` to only rebuild files that changed.
-If something was changed that affects all pages (titles of the page, the toc, …), one
-first needs to clean the `_build` folder with `jb clean .`.
 
-Results of running the executable code in content files is also cached and can be rebuild
-by first running `jb clean --all .` before building again with `jb build .`.
+Locally editing means that one edits a content file and then rebuilds the book.
+While only editing one page the author can use `jb build .` to only rebuild
+files that changed. If something was changed that affects all pages (titles of
+the page, the toc, …), one first needs to clean the `_build` folder with `jb
+clean .`.
 
-The results can be opened in a web browser either via the `file://` protocoll or for
-example by using the python module `http.server` to access them via `http://localhost:8000`
-(or similar).
+Results of running the executable code in content files is also cached and can
+be rebuild by first running `jb clean --all .` before building again with `jb
+build .`.
+
+The results can be opened in a web browser either via the `file://` protocoll
+or for example by using the python module `http.server` to access them via
+`http://localhost:8000` (or similar).
+
 :::
 
-## <!--
+<!--
 
 ### Using Git
 
@@ -443,8 +450,8 @@ those merges by other project members.
 
 ::: notes
 
-For quick scripts we use the package JupyterQuiz which integrates nicely with Jupyter Book.
-To have consistent colors we define them in `quadriga.colors`.
+For quick scripts we use the package JupyterQuiz which integrates nicely with
+Jupyter Book. To have consistent colors we define them in `quadriga.colors`.
 
 :::
 
@@ -456,10 +463,11 @@ To have consistent colors we define them in `quadriga.colors`.
 
 ::: notes
 
-The Python module `quadriga.metadata` contains scripts that updated the files `metadata.yml`,
-`CITATION.cff`, and `CITATION.bib` based on information contained in `_config.yml`,
-`_toc.yml`, and `metadata.yml`. All metadata updating can be done by running
-`python3 -m quadriga.metadata.run_all` (requires `dev-requirements.txt`).
+The Python module `quadriga.metadata` contains scripts that updated the files
+`metadata.yml`, `CITATION.cff`, and `CITATION.bib` based on information
+contained in `_config.yml`, `_toc.yml`, and `metadata.yml`. All metadata
+updating can be done by running `python3 -m quadriga.metadata.run_all`
+(requires `dev-requirements.txt`).
 
 :::
 
@@ -467,8 +475,9 @@ The Python module `quadriga.metadata` contains scripts that updated the files `m
 
 ::: notes
 
-The Book_Template currently uses GitHub as its Git forge and CI/CD pipeline. These workflows
-and settings can also be run on any other Git forge and CI/CD pipeline.
+The Book_Template currently uses GitHub as its Git forge and CI/CD pipeline.
+These workflows and settings can also be run on any other Git forge and CI/CD
+pipeline.
 
 :::
 
@@ -479,8 +488,8 @@ and settings can also be run on any other Git forge and CI/CD pipeline.
 
 ::: notes
 
-The generated books are currently hosted on GitHub Pages. Other hosting providers are possible
-and might be implemented in the future.
+The generated books are currently hosted on GitHub Pages. Other hosting
+providers are possible and might be implemented in the future.
 
 :::
 
@@ -492,17 +501,19 @@ and might be implemented in the future.
 
 ::: notes
 
-The CI/CD infrastructure is defined in two GitHub Actions. One workflow is run on any commit
-to any branch and updates the metadata files if necessary. If the author didn't update the
-metadata locally before the push this action automatically creates a new commit in the branch.
-This ensures up to date metadata files.
+The CI/CD infrastructure is defined in two GitHub Actions. One workflow is run
+on any commit to any branch and updates the metadata files if necessary. If the
+author didn't update the metadata locally before the push this action
+automatically creates a new commit in the branch. This ensures up to date
+metadata files.
 
-The second action is run on pushes to `main` if the action to update the metadata was successful.
-In the template there are three versions of this workflow definition and users should select the
-one fitting their requirements. They differe based on the Jupyter Kernels used in the book.
+The second action is run on pushes to `main` if the action to update the
+metadata was successful. In the template there are three versions of this
+workflow definition and users should select the one fitting their requirements.
+They differe based on the Jupyter Kernels used in the book.
 
-The template runs the workflow that contains setup instructions for Python, R, and SPARQL.
-These setups are cached to ensure usable CI/CD runtimes.
+The template runs the workflow that contains setup instructions for Python, R,
+and SPARQL. These setups are cached to ensure usable CI/CD runtimes.
 
 :::
 
@@ -517,18 +528,21 @@ These setups are cached to ensure usable CI/CD runtimes.
 
 The Zenodo integration is documented quite well on <zenodo.org>.
 
-Once GitHub and Zenodo are connected Zenodo watches selected GitHub Repositories and is notified
-when a release is created. This triggers the download of the current state of `main` which is
-then uploaded and published as a `.zip` file. The information within `CITATION.cff` is used to
-populate the metadata of the Zenodo record.
+Once GitHub and Zenodo are connected Zenodo watches selected GitHub
+Repositories and is notified when a release is created. This triggers the
+download of the current state of `main` which is then uploaded and published as
+a `.zip` file. The information within `CITATION.cff` is used to populate the
+metadata of the Zenodo record.
 
-On the first publishing the DOI created by Zenodo needs to be added to the relevant metadata
-files in the repository and a Zenodo badge needs to be added to the `README.md`.
+On the first publishing the DOI created by Zenodo needs to be added to the
+relevant metadata files in the repository and a Zenodo badge needs to be added
+to the `README.md`.
 
-The GitHub Action to update the metadata also looks for the definition of a Git tag defining a
-version. If it find this tag, it updates the metadata files with the `oer-version` and the
-`date-modified` and then moves the tag to this newest automatically generated commit. Thus a
-release based on this tag contains the updated and correct metadata.
+The GitHub Action to update the metadata also looks for the definition of a Git
+tag defining a version. If it find this tag, it updates the metadata files with
+the `oer-version` and the `date-modified` and then moves the tag to this newest
+automatically generated commit. Thus a release based on this tag contains the
+updated and correct metadata.
 
 :::
 
@@ -539,11 +553,12 @@ release based on this tag contains the updated and correct metadata.
 
 ::: notes
 
-QUADRIGA is working on an internal metadata scheme (or profile) which is used within the
-project but can also be used by external projects or scrapers. It is defined in JSON-Schema.
+QUADRIGA is working on an internal metadata scheme (or profile) which is used
+within the project but can also be used by external projects or scrapers. It is
+defined in JSON-Schema.
 
-It contains among other elements the definition of learning objectives per chapter and their
-classification within the QUADRIGA Data Literacy Framework.
+It contains among other elements the definition of learning objectives per
+chapter and their classification within the QUADRIGA Data Literacy Framework.
 
 :::
 
@@ -554,10 +569,11 @@ classification within the QUADRIGA Data Literacy Framework.
 
 ::: notes
 
-The Book_Template is itself a OER about building OER based on our ideas. It contains
-instructions for configuring Jupyter Book and authoring content.
+The Book_Template is itself a OER about building OER based on our ideas. It
+contains instructions for configuring Jupyter Book and authoring content.
 
-It can be used as is or as a starting point or inspiration for creating your own OER.
+It can be used as is or as a starting point or inspiration for creating your
+own OER.
 
 :::
 
@@ -581,7 +597,8 @@ It can be used as is or as a starting point or inspiration for creating your own
 
 Remove duplication, especially in the definition of learning objectives.
 
-Tool like teachbooks enhances cohesiveness but not sure if the added layer of abstraction is good.
+Tool like teachbooks enhances cohesiveness but not sure if the added layer of
+abstraction is good.
 
 :::
 
