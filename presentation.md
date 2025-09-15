@@ -68,9 +68,14 @@ environments.
 - ease of modification
 - multiple Jupyter kernels
 
-Support for the didactical requirements:
+Support for the didactical requirements [@samoilova2024]:
 
-- a
+1. Presentation of Question(s)/Problem/Task
+2. Supporting Information
+3. Interactive Exercises
+4. Summary and Reflection
+5. Procedural Information
+6. Assessment 
 
 :::
 
