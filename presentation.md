@@ -68,14 +68,7 @@ environments.
 - ease of modification
 - multiple Jupyter kernels
 
-Support for the didactical requirements [@samoilova2024]:
-
-1. Presentation of Question(s)/Problem/Task
-2. Supporting Information
-3. Interactive Exercises
-4. Summary and Reflection
-5. Procedural Information
-6. Assessment 
+Support for the didactical requirements [@samoilova2024].
 
 :::
 
@@ -106,6 +99,18 @@ project based learning and demonstrates the applicability and usefulness of the
 material to prospective learners/users.
 
 :::
+
+## Instructional Design
+
+Support for the didactical requirements [@samoilova2024]:
+
+1. Presentation of Questions/Problems/Tasks
+2. Supporting Information
+3. Interactive Exercises
+4. Summary and Reflection
+5. Procedural Information
+6. Assessment 
+
 
 ## Usage Scenarios
 
