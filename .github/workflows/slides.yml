@@ -23,7 +23,7 @@ jobs:
       uses: docker://pandoc/core:3.5
       with:
         entrypoint: /bin/sh
-        args: -c "./rebuild.sh"
+        args: -c "sh ./rebuild.sh"
     
     - name: Copy to index.html
       run: cp presentation.html index.html
