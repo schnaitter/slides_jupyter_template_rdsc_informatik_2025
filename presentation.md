@@ -333,8 +333,6 @@ on the individual webpages via links to the code and to execution environments.
 
 **Editing Workflow**
 
-**Using Git**
-
 ---
 
 ### File Structure
