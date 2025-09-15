@@ -1,0 +1,5 @@
+flowchart LR
+    config[_config.yml] --> metadata[metadata.yml]
+    toc[_toc.yml]       --> metadata
+    metadata            --> cff[CITATION.cff]
+    cff                 --> bib[CITATION.bib]

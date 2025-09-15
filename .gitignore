@@ -1,0 +1,5 @@
+# macOS system files
+**/.DS_Store
+
+# built presentation – run ./rebuild.sh to generate
+presentation.html

@@ -1,0 +1,10 @@
+flowchart TD
+    commit{{incomming commit}} --> update[[Update Metadata]]
+    update-->needs_update{Changes?}
+    needs_update -- yes --> new_commit["Create<br>automatic<br>commit"]
+    new_commit --> is_main{"Was<br>commit&nbsp;on<br>main?"}
+    is_main -- yes --> build_and_publish[[Build and Publish Book]]
+    build_and_publish --> finish{{Done}}
+
+    needs_update -- no --> is_main
+    is_main -- no --> finish
