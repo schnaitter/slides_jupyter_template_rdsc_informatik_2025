@@ -404,10 +404,14 @@ those merges by other project members.
 
 ### Project Specific Admonitions
 
-- learning objectives
-- duration 
+- Learning objectives
+- Duration
+- Story telling 
 
 ### Margin Notes
+
+- Feedback
+- Procedural Information
 
 ## Python Scripts
 
