@@ -57,6 +57,16 @@ Jupyter Book ecosystem and its use for OER creation.
 
 # Requirements
 
+**Context QUADRIGA**
+
+**Instructional Design**
+
+**Usage Scenarios**
+
+**(Executable) Code**
+
+**Openness**
+
 ::: notes
 
 Our goal was to create Open Educational Resources that are easy to use, reuse,
@@ -102,7 +112,7 @@ material to prospective learners/users.
 
 ## Instructional Design
 
-Support for the didactical requirements [@samoilova2024]:
+Support for the core components identified by [@samoilova2024]:
 
 1. Presentation of Questions/Problems/Tasks
 2. Supporting Information
@@ -231,7 +241,7 @@ be used to author the case studies.
 
 ---
 
-## Open Development
+## Openness
 
 - Open Educational Resource
 - Open Formats
@@ -313,7 +323,7 @@ on the individual webpages via links to the code and to execution environments.
 - Styleguide
 - GitHub Actions & Pages
 - Zenodo Integration
-- metadata
+- Metadata
 
 :::
 
@@ -392,6 +402,7 @@ example by using the python module `http.server` to access them via `http://loca
 (or similar).
 :::
 
+<!--
 ---
 
 ### Using Git
@@ -414,6 +425,8 @@ Try to not get into situations where manual merging is necessary. Support for
 those merges by other project members.
 
 :::
+
+-->
 
 ## Style Guide
 
