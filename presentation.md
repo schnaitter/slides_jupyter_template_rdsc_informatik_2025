@@ -119,8 +119,7 @@ Support for the core components identified by [@samoilova2024]:
 3. Interactive Exercises
 4. Summary and Reflection
 5. Procedural Information
-6. Assessment 
-
+6. Assessment
 
 ## Usage Scenarios
 
@@ -131,8 +130,7 @@ Support for the core components identified by [@samoilova2024]:
 ::: notes
 
 The main audience of the OER are researchers new to data science concepts in
-the addressed disciplines (digital humanities with focus on text, administration
-science, and film studies). We specifically address doctoral students,
+the addressed disciplines (digital humanities with focus on text, public administration, and film studies). We specifically address doctoral students,
 post-docs and profs.
 
 Other audiences like teachers and OER authors are partially addressed because
@@ -400,8 +398,7 @@ example by using the python module `http.server` to access them via `http://loca
 (or similar).
 :::
 
-<!--
----
+## <!--
 
 ### Using Git
 
