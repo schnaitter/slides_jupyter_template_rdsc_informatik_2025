@@ -77,8 +77,9 @@ environments.
 - 12 case studies across multiple author teams
 - different requirements based on specific audience and focused competencies
 - consistency between case studies with allowances for individualization
-- project based learning demonstrates applicability and usefulness of material to learners
-  
+- project based learning demonstrates applicability and usefulness of material
+  to learners
+
 :::
 
 ::: notes
@@ -406,7 +407,7 @@ those merges by other project members.
 
 - Learning objectives
 - Duration
-- Story telling 
+- Story telling
 
 ### Margin Notes
 
@@ -434,7 +435,7 @@ To have consistent colors we define them in `quadriga.colors`.
 ::: notes
 
 The Python module `quadriga.metadata` contains scripts that updated the files `metadata.yml`,
-`CITATION, cff`, and `CITATION.bib` based on information contained in `_config.yml`,
+`CITATION.cff`, and `CITATION.bib` based on information contained in `_config.yml`,
 `_toc.yml`, and `metadata.yml`. All metadata updating can be done by running
 `python3 -m quadriga.metadata.run_all` (requires `dev-requirements.txt`).
 
@@ -582,7 +583,7 @@ Tool like teachbooks enhances cohesiveness but not sure if the added layer of ab
 
 - Drag‘n‘drop quizzes to allow for mapping and ordering exercises
 - Interactive plot based assessment
-- Better support for test-driven assessment 
+- Better support for test-driven assessment
 
 ## Jupyter Book 2
 
