@@ -295,6 +295,7 @@ on the individual webpages via links to the code and to execution environments.
 
 - Architecture
 - Python scripts
+- Styleguide
 - GitHub Actions & Pages
 - Zenodo Integration
 - metadata
@@ -398,6 +399,15 @@ Try to not get into situations where manual merging is necessary. Support for
 those merges by other project members.
 
 :::
+
+## Style Guide
+
+### Project Specific Admonitions
+
+- learning objectives
+- duration 
+
+### Margin Notes
 
 ## Python Scripts
 
