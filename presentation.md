@@ -78,8 +78,10 @@ environments.
 - different requirements based on specific audience and focused competencies
 - consistency between case studies with allowances for individualization
 - project based learning demonstrates applicability and usefulness of material to learners
-  :::
-  ::: notes
+  
+:::
+
+::: notes
 
 QUADRIGA is creating 12 case studies in total across 3 author teams. They each
 have different requirements based on the specific audience they want to address
@@ -218,7 +220,7 @@ be used to author the case studies.
 
 - Open Educational Resource
 - Open Formats
-- No special execution environment / euntime prerequisites
+- No special execution environment / runtime prerequisites
 - Development can be observed and contributed to
 - Open Source
 
@@ -300,6 +302,12 @@ on the individual webpages via links to the code and to execution environments.
 :::
 
 ## Architecture
+
+**File Structure**
+
+**Editing Workflow**
+
+**Using Git**
 
 ---
 
@@ -489,6 +497,9 @@ release based on this tag contains the updated and correct metadata.
 
 ## Metadata
 
+- `metadata.yml`
+- <https://quadriga-dk.github.io/quadriga-schema/>
+
 ::: notes
 
 QUADRIGA is working on an internal metadata scheme (or profile) which is used within the
@@ -500,6 +511,9 @@ classification within the QUADRIGA Data Literacy Framework.
 :::
 
 ## First Steps
+
+- Use `quadriga-dk/Book_Template` as a template for your OER, or
+- Download the `.zip` as a starting point for your OER.
 
 ::: notes
 
@@ -536,6 +550,12 @@ Tool like teachbooks enhances cohesiveness but not sure if the added layer of ab
 
 ## Evaluation
 
+- User Testing
+    - Learners
+    - Teachers
+    - Authors
+- Evaluation of learning outcomes
+
 ::: notes
 
 - How easy is onboarding authors?
@@ -546,14 +566,15 @@ Tool like teachbooks enhances cohesiveness but not sure if the added layer of ab
 
 ## More Assessment Options
 
-- drag‘n‘drop quizzes to allow for mapping and ordering exercises
-- interactive plot based assessment
+- Drag‘n‘drop quizzes to allow for mapping and ordering exercises
+- Interactive plot based assessment
+- Better support for test-driven assessment 
 
 ## Jupyter Book 2
 
-- re-architecture based on MyST.md instead of sphinx
-- depending on tooling the finished case studies will be ported (or not)
-- bifurcation of template for both versions possible
+- Re-architecture based on MyST.md instead of sphinx
+- Depending on upgrade tooling, the finished case studies will be ported
+- Bifurcation of template for both versions possible
 
 # References
 
