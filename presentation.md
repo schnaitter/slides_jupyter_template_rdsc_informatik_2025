@@ -582,6 +582,8 @@ abstraction is good.
 
 ![](./assets/slides_jupyter_book_template_rdsc_informatik_2025.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
+<https://github.com/schnaitter/slides_jupyter_template_rdsc_informatik_2025>
+
 # References
 
 ::: {#refs}
