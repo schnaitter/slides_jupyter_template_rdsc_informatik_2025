@@ -1,4 +1,4 @@
-flowchart TD
+flowchart LR
     commit{{incomming commit}} --> update[[Update Metadata]]
     update-->needs_update{Changes?}
     needs_update -- yes --> new_commit["Create<br>automatic<br>commit"]

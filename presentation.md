@@ -83,15 +83,11 @@ Support for the didactical requirements [@samoilova2024].
 
 ## Context QUADRIGA
 
-
-
 - 12 case studies across multiple author teams
 - different requirements based on specific audience and focused competencies
 - consistency between case studies with allowances for individualization
 - project based learning demonstrates applicability and usefulness of material
   to learners
-
-
 
 ::: notes
 
@@ -141,8 +137,6 @@ we and the case study authors are part of that group.
 
 ### Learning
 
-
-
 - **ease of use**
 - **flexibility of learning**
 
@@ -175,13 +169,9 @@ scale is reminiscent of Blooms Taxonomy.
 
 ### Teaching
 
-
-
 - **ease of reuse**
     - useful content and exercises
     - extracting parts and adapting them should be easy
-
-
 
 ::: notes
 
@@ -195,13 +185,9 @@ adapt them to their needs.
 
 ### Writing
 
-
-
 - **ease of modification**
     - enable authors to realize their intent
     - easy to use after short introduction
-
-
 
 ::: notes
 
@@ -217,13 +203,9 @@ the technology should be mostly invisible for routine authoring tasks.
 
 ## (Executable) Code
 
-
-
 - integration of code examples and their results
 - choice of programming language
 - similarity to real "research environment"
-
-
 
 ::: notes
 
@@ -285,14 +267,10 @@ requirements.
 
 ## Jupyter Book Characteristics
 
-
-
 - static site generator
 - structure of content and links between pages
 - Jupyter Notebooks (`.ipynb`) and Markdown (`.md`) files
 - clear bi-directional connection between source files and pages of website
-
-
 
 ::: notes
 
@@ -375,66 +353,7 @@ environments.
 
 ### Building the Book
 
-
-
-<!—
-
----
-
-### Editing Workflow
-
-::: incremental
-
-- Edit content
-- Maybe edit `_config.yml`, `_toc.yml`
-- Maybe clean previous build with `jb clean .` or `jb clean --all .`
-- Build site with `jb build .`
-- Look at result in `_build/html`
-- Commit and push to GitHub
-
-:::
-
-::: notes
-
-Locally editing means that one edits a content file and then rebuilds the book.
-While only editing one page the author can use `jb build .` to only rebuild
-files that changed. If something was changed that affects all pages (titles of
-the page, the toc, …), one first needs to clean the `_build` folder with `jb
-clean .`.
-
-Results of running the executable code in content files is also cached and can
-be rebuild by first running `jb clean --all .` before building again with `jb
-build .`.
-
-The results can be opened in a web browser either via the `file://` protocoll
-or for example by using the python module `http.server` to access them via
-`http://localhost:8000` (or similar).
-
-:::
-
-
-### Using Git
-
-::: incremental
-
-- Basic Git usage is viable for everyone.
-- Avoid situations where manual merging is necessary.
-- If manual merge is necessary, provide support.
-
-:::
-
-::: notes
-
-Git usage for not too technically minded people.
-
-Allow editing of main branch.
-
-Try to not get into situations where manual merging is necessary. Support for
-those merges by other project members.
-
-:::
-
--->
+TODO Graph
 
 ## Six Core Components
 
@@ -447,54 +366,51 @@ those merges by other project members.
 
 ---
 
-### Presentation of Questions/Problems/Tasks
+### Admonitions
 
-Admonitions for Learning Objectives 
+![](./assets/learning_objectives_table.png)
 
----
+::: notes
 
-### Supporting Information
+`learning-objective` for 1. Presentation of Questions/Problems/Tasks
 
-Margin notes
-
----
-
-### Interactive Exercises
-
-Jupyter Quiz
+:::
 
 ---
-
-### Summary and Reflection
-
-Reflection Chapters
-
----
-
-### Procedural Information
-
-Margin notes
-
----
-
-### Assessment
-
-JupyterQuiz
-
-<!--
-
-### Project Specific Admonitions
-
-- Learning objectives
-- Duration
-- Story telling
 
 ### Margin Notes
 
-- Feedback
-- Procedural Information
+![](./assets/margin_notes_moving_image.png)
 
--->
+::: notes
+
+For 2. Supporting Information and partially 5. Procedural Information
+
+:::
+
+---
+
+### Quizzes
+
+![](./assets/quizzes_assessment_text.png)
+
+::: notes
+
+For 3. Interactive Exercises and partially for 6. Assessment
+
+:::
+
+---
+
+### Mandatory Chapters
+
+![](./assets/mandatory_chapters_moving_image.png)
+
+::: notes
+
+For 5. Summary and Reflection and other content Prelude and Epilog
+
+:::
 
 ## Python Scripts
 
