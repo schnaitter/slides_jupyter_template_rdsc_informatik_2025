@@ -15,29 +15,27 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
     - uses: actions/checkout@v4
-    
+
+    - name: Install pandoc
+      run: sudo apt-get update && sudo apt-get install -y pandoc
+
     - name: Build slides
-      uses: docker://pandoc/core:3.5
-      with:
-        entrypoint: /bin/sh
-        args: -c "sh ./rebuild.sh"
-    
+      run: ./rebuild.sh
+
     - name: Copy to index.html
-      run: |
-        mkdir build
-        cp presentation.html build/index.html
-    
+      run: cp presentation.html index.html
+
     - name: Setup Pages
       uses: actions/configure-pages@v4
-    
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: 'build'
-    
+        path: '.'
+
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
