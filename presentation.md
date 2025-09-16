@@ -639,6 +639,32 @@ abstraction is good.
 
 ## QUADRIGA
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![](./assets/quadriga-website.png)
+
+[QUADRIGA Projektwebsite](https://www.quadriga-dk.de)
+:::
+::: {.column width="50%"}
+![](./assets/quadriga-qr-codes.png)
+
+<https://quadriga-dk.github.io/qr>
+:::
+::::::::::::::
+
 ## Funding
+
+Das Datenkompetenzzentrum QUADRIGA wird vom Bundesministerium für Forschung,
+Technologie und Raumfahrt (BMFTR) unter dem Kennzeichen 16DKZ2034 gefördert. Zu
+den Verbundpartern zählen:
+
+- Universität Potsdam (Verbundkoordination) (Förderkennzeichen: 16DKZ2034A)
+- Filmuniversität Babelsberg (Förderkennzeichen: 16DKZ2034B)
+- Fachhochschule Potsdam (Förderkennzeichen: 16DKZ2034C)
+- Fraunhofer FOKUS (Förderkennzeichen: 16DKZ2034D)
+- Freie Universität Berlin (Förderkennzeichen: 16DKZ2034E)
+- Technische Universität Berlin (Förderkennzeichen: 16DKZ2034F)
+- Gesellschaft für Informatik (Förderkennzeichen: 16DKZ2034G)
+- Humboldt-Universität zu Berlin (Förderkennzeichen: 16DKZ2034H)
 
 <!-- vim: set spelllang=en_us spell: -->
