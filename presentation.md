@@ -139,16 +139,11 @@ we and the case study authors are part of that group.
 
 - **ease of use**
 - **flexibility of learning**
-
-::: incremental
-
-- **depth of use:**
+- **level of use:**
     - reading
     - interacting on the website
     - interacting with code
     - making code your own
-
-:::
 
 ::: notes
 
@@ -353,7 +348,7 @@ environments.
 
 ### Building the Book
 
-TODO Graph
+![](./assets/jb-process.mermaid.svg){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
 ## Six Core Components
 
@@ -370,6 +365,8 @@ TODO Graph
 
 ![](./assets/learning_objectives_table.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
+Compontent 1 Presentation of Questions/Problems/Tasks
+
 ::: notes
 
 `learning-objective` for 1. Presentation of Questions/Problems/Tasks
@@ -381,6 +378,8 @@ TODO Graph
 ### Margin Notes
 
 ![](./assets/margin_notes_moving_image.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
+
+Compnents 2 Supporting Information and 5 Procedural Information
 
 ::: notes
 
@@ -394,6 +393,8 @@ For 2. Supporting Information and partially 5. Procedural Information
 
 ![](./assets/quizzes_assessment_text.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
+Compontents 3 Interactive Exercises and 6 Assessment
+
 ::: notes
 
 For 3. Interactive Exercises and partially for 6. Assessment
@@ -405,6 +406,8 @@ For 3. Interactive Exercises and partially for 6. Assessment
 ### Mandatory Chapters
 
 ![](./assets/mandatory_chapters_moving_image.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
+
+Compontent 5 Summary and Reflection
 
 ::: notes
 
