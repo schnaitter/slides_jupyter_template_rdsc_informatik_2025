@@ -578,6 +578,10 @@ abstraction is good.
 - Depending on upgrade tooling, the finished case studies will be ported
 - Bifurcation of template for both versions possible
 
+## Slides
+
+![](./assets/slides_jupyter_book_template_rdsc_informatik_2025.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
+
 # References
 
 ::: {#refs}
