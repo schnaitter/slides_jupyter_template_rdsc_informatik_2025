@@ -350,6 +350,13 @@ environments.
 
 ![](./assets/jb-process.mermaid.svg){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
+::: notes
+
+After installing Jupyter Book one can run `jb build .` to build the website
+based on the configuration files and the content files.
+
+:::
+
 ## Six Core Components
 
 1. Presentation of Questions/Problems/Tasks
@@ -358,6 +365,13 @@ environments.
 4. Summary and Reflection
 5. Procedural Information
 6. Assessment
+
+::: notes
+
+Samoilova et al. 2024 identified 6 core components for the Case Studies which
+are enabled by the Template.
+
+:::
 
 ---
 
@@ -496,8 +510,9 @@ updated and correct metadata.
 
 ## Metadata
 
-- `metadata.yml`
-- <https://quadriga-dk.github.io/quadriga-schema/>
+`metadata.yml`
+
+<https://quadriga-dk.github.io/quadriga-schema/>
 
 ::: notes
 
