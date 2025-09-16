@@ -368,7 +368,7 @@ TODO Graph
 
 ### Admonitions
 
-![](./assets/learning_objectives_table.png)
+![](./assets/learning_objectives_table.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
 ::: notes
 
@@ -380,7 +380,7 @@ TODO Graph
 
 ### Margin Notes
 
-![](./assets/margin_notes_moving_image.png)
+![](./assets/margin_notes_moving_image.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
 ::: notes
 
@@ -392,7 +392,7 @@ For 2. Supporting Information and partially 5. Procedural Information
 
 ### Quizzes
 
-![](./assets/quizzes_assessment_text.png)
+![](./assets/quizzes_assessment_text.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
 ::: notes
 
@@ -404,7 +404,7 @@ For 3. Interactive Exercises and partially for 6. Assessment
 
 ### Mandatory Chapters
 
-![](./assets/mandatory_chapters_moving_image.png)
+![](./assets/mandatory_chapters_moving_image.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
 ::: notes
 
@@ -428,7 +428,7 @@ Jupyter Book. To have consistent colors we define them in `quadriga.colors`.
 
 ### Metadata Scripts
 
-![](./assets/metadata-flowchart.mermaid.svg)
+![](./assets/metadata-flowchart.mermaid.svg){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
 ::: notes
 
@@ -466,7 +466,7 @@ providers are possible and might be implemented in the future.
 
 ### GitHub Actions
 
-![](./assets/gh-actions-flowchart.mermaid.svg){style="max-width: 80%; max-height: 70vh; object-fit: contain;"}
+![](./assets/gh-actions-flowchart.mermaid.svg){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
 ::: notes
 
