@@ -41,7 +41,8 @@ needed to expand or modify the standard behavior for our needs.
 ::: notes
 
 The bulk of the talk will be to show our design decisions and their
-implementation in the template. I will explain the template to you and how we we fulfill our requirements.
+implementation in the template. I will explain the template to you and how we
+we fulfill our requirements.
 
 :::
 
@@ -476,6 +477,23 @@ They differe based on the Jupyter Kernels used in the book.
 
 The template runs the workflow that contains setup instructions for Python, R,
 and SPARQL. These setups are cached to ensure usable CI/CD runtimes.
+
+:::
+
+## Using Git
+
+- Basic Git usage is viable for everyone.
+- Avoid situations where manual merging is necessary.
+- If manual merge is necessary, provide support.
+
+::: notes
+
+Git usage for not too technically minded people.
+
+Allow editing of main branch.
+
+Try to not get into situations where manual merging is necessary. Support for
+those merges by other project members.
 
 :::
 
