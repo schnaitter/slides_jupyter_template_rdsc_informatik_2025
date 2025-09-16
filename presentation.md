@@ -449,25 +449,37 @@ those merges by other project members.
 
 ### Presentation of Questions/Problems/Tasks
 
+Admonitions for Learning Objectives 
+
 ---
 
 ### Supporting Information
+
+Margin notes
 
 ---
 
 ### Interactive Exercises
 
+Jupyter Quiz
+
 ---
 
 ### Summary and Reflection
+
+Reflection Chapters
 
 ---
 
 ### Procedural Information
 
+Margin notes
+
 ---
 
 ### Assessment
+
+JupyterQuiz
 
 <!--
 
