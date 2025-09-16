@@ -41,8 +41,7 @@ needed to expand or modify the standard behavior for our needs.
 ::: notes
 
 The bulk of the talk will be to show our design decisions and their
-implementation in the template. I will show you how the template can be used to
-create your own OER and how to use it for reference while writing.
+implementation in the template. I will explain the template to you and how we we fulfill our requirements.
 
 :::
 
@@ -84,7 +83,7 @@ Support for the didactical requirements [@samoilova2024].
 
 ## Context QUADRIGA
 
-::: incremental
+
 
 - 12 case studies across multiple author teams
 - different requirements based on specific audience and focused competencies
@@ -92,7 +91,7 @@ Support for the didactical requirements [@samoilova2024].
 - project based learning demonstrates applicability and usefulness of material
   to learners
 
-:::
+
 
 ::: notes
 
@@ -124,8 +123,6 @@ Support for the core components identified by [@samoilova2024]:
 
 ## Usage Scenarios
 
-. . .
-
 **focus on doctoral students, post-docs and other scientists**
 
 ::: notes
@@ -144,14 +141,16 @@ we and the case study authors are part of that group.
 
 ### Learning
 
-::: incremental
+
 
 - **ease of use**
 - **flexibility of learning**
 
+::: incremental
+
 - **depth of use:**
     - reading
-    - interactivity
+    - interacting on the website
     - interacting with code
     - making code your own
 
@@ -176,13 +175,13 @@ scale is reminiscent of Blooms Taxonomy.
 
 ### Teaching
 
-::: incremental
+
 
 - **ease of reuse**
     - useful content and exercises
     - extracting parts and adapting them should be easy
 
-:::
+
 
 ::: notes
 
@@ -196,13 +195,13 @@ adapt them to their needs.
 
 ### Writing
 
-::: incremental
+
 
 - **ease of modification**
     - enable authors to realize their intent
     - easy to use after short introduction
 
-:::
+
 
 ::: notes
 
@@ -218,13 +217,13 @@ the technology should be mostly invisible for routine authoring tasks.
 
 ## (Executable) Code
 
-::: incremental
+
 
 - integration of code examples and their results
 - choice of programming language
 - similarity to real "research environment"
 
-:::
+
 
 ::: notes
 
@@ -234,7 +233,7 @@ code examples and their results seamlessly.
 The authors should not be hindered in the choice of the programming language
 they want to use.
 
-Ideally the real „development environment“ they use for their research should
+Ideally the real „research environment“ they use for their research should
 be used to author the case studies.
 
 :::
@@ -286,14 +285,14 @@ requirements.
 
 ## Jupyter Book Characteristics
 
-::: incremental
+
 
 - static site generator
 - structure of content and links between pages
 - Jupyter Notebooks (`.ipynb`) and Markdown (`.md`) files
 - clear bi-directional connection between source files and pages of website
 
-:::
+
 
 ::: notes
 
@@ -332,7 +331,7 @@ environments.
 
 **File Structure**
 
-**Editing Workflow**
+**Building the Book**
 
 ---
 
@@ -374,6 +373,14 @@ environments.
 
 ---
 
+### Building the Book
+
+
+
+<!—
+
+---
+
 ### Editing Workflow
 
 ::: incremental
@@ -405,7 +412,6 @@ or for example by using the python module `http.server` to access them via
 
 :::
 
-<!--
 
 ### Using Git
 
@@ -430,7 +436,40 @@ those merges by other project members.
 
 -->
 
-## Style Guide
+## Six Core Components
+
+1. Presentation of Questions/Problems/Tasks
+2. Supporting Information
+3. Interactive Exercises
+4. Summary and Reflection
+5. Procedural Information
+6. Assessment
+
+---
+
+### Presentation of Questions/Problems/Tasks
+
+---
+
+### Supporting Information
+
+---
+
+### Interactive Exercises
+
+---
+
+### Summary and Reflection
+
+---
+
+### Procedural Information
+
+---
+
+### Assessment
+
+<!--
 
 ### Project Specific Admonitions
 
@@ -442,6 +481,8 @@ those merges by other project members.
 
 - Feedback
 - Procedural Information
+
+-->
 
 ## Python Scripts
 
