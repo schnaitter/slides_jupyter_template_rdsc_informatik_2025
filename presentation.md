@@ -139,7 +139,7 @@ we and the case study authors are part of that group.
 
 - **ease of use**
 - **flexibility of learning**
-- **level of use:**
+- **levels of engagement:**
     - reading
     - interacting on the website
     - interacting with code
