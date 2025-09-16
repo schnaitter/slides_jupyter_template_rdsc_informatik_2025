@@ -365,13 +365,7 @@ environments.
 
 ![](./assets/learning_objectives_table.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
-Compontent 1 Presentation of Questions/Problems/Tasks
-
-::: notes
-
-`learning-objective` for 1. Presentation of Questions/Problems/Tasks
-
-:::
+Component _1 Presentation of Questions/Problems/Tasks_
 
 ---
 
@@ -379,13 +373,7 @@ Compontent 1 Presentation of Questions/Problems/Tasks
 
 ![](./assets/margin_notes_moving_image.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
-Compnents 2 Supporting Information and 5 Procedural Information
-
-::: notes
-
-For 2. Supporting Information and partially 5. Procedural Information
-
-:::
+Components _2 Supporting Information_ and _5 Procedural Information_
 
 ---
 
@@ -393,13 +381,7 @@ For 2. Supporting Information and partially 5. Procedural Information
 
 ![](./assets/quizzes_assessment_text.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
-Compontents 3 Interactive Exercises and 6 Assessment
-
-::: notes
-
-For 3. Interactive Exercises and partially for 6. Assessment
-
-:::
+Components _3 Interactive Exercises_ and _6 Assessment_
 
 ---
 
@@ -407,13 +389,7 @@ For 3. Interactive Exercises and partially for 6. Assessment
 
 ![](./assets/mandatory_chapters_moving_image.png){style="max-width: 100%; max-height: 80vh; object-fit: contain;"}
 
-Compontent 5 Summary and Reflection
-
-::: notes
-
-For 5. Summary and Reflection and other content Prelude and Epilog
-
-:::
+Component _5 Summary and Reflection_
 
 ## Python Scripts
 
