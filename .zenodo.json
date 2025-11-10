@@ -59,11 +59,6 @@
     }
   ],
   "communities": [{ "identifier": "quadriga" }],
-  "grants": [
-    {
-      "id": "16DKZ2034"
-    }
-  ],
   "subjects": [
     {
       "term": "Educational Technology",
