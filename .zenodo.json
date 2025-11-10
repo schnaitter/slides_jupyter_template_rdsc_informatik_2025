@@ -1,0 +1,84 @@
+{
+  "$schema": "https://raw.githubusercontent.com/zenodo/zenodo/refs/heads/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json",
+  "title": "A Jupyter Book Template for Research-Based Open Educational Resources in Data Literacy",
+  "description": "Presentation slides for the RDSC Workshop at Informatik Festival 2025. This presentation describes a Jupyter Book template developed for creating research-based Open Educational Resources (OER) in data literacy. The template supports instructional design components, multiple programming environments, and integrates with GitHub Actions and Zenodo for automated publishing. The template was developed as part of the QUADRIGA project, which creates case studies for teaching data competencies in digital humanities, public administration, and film studies.",
+  "upload_type": "presentation",
+  "publication_date": "2025-11-10",
+  "creators": [
+    {
+      "name": "Schnaitter, Hannes",
+      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+    },
+    {
+      "name": "Samoilova, Evgenia",
+      "affiliation": "Universität Potsdam"
+    },
+    {
+      "name": "Islam, Lamia",
+      "affiliation": "Universität Potsdam"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Jupyter Book",
+    "Open Educational Resources",
+    "OER",
+    "Data Literacy",
+    "Educational Technology",
+    "QUADRIGA",
+    "Instructional Design",
+    "Research-Based Learning",
+    "Template"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.18420/INF2025_111",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.18420/inf2024_187",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/schnaitter/slides_jupyter_template_rdsc_informatik_2025",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.quadriga-dk.de",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://quadriga-dk.github.io/quadriga-schema/",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "communities": [{ "identifier": "quadriga" }],
+  "grants": [
+    {
+      "id": "16DKZ2034"
+    }
+  ],
+  "subjects": [
+    {
+      "term": "Educational Technology",
+      "scheme": "keyword"
+    },
+    {
+      "term": "Open Educational Resources",
+      "scheme": "keyword"
+    },
+    {
+      "term": "Data Literacy",
+      "scheme": "keyword"
+    }
+  ],
+  "conference_title": "RDSC Workshop, Informatik Festival 2025",
+  "conference_acronym": "INFORMATIK 2025",
+  "notes": "This presentation was given at the RDSC Workshop during the Informatik Festival 2025. The QUADRIGA data competency center is funded by the German Federal Ministry of Education and Research (Bundesministerium für Forschung, Technologie und Raumfahrt - BMFTR) under grant number 16DKZ2034. Project partners include: Universität Potsdam (coordination), Filmuniversität Babelsberg, Fachhochschule Potsdam, Fraunhofer FOKUS, Freie Universität Berlin, Technische Universität Berlin, Gesellschaft für Informatik, and Humboldt-Universität zu Berlin."
+}
